@@ -3,7 +3,6 @@
 문제를 풀때 필요한 기본 Node 지식
 
 1. 입력값이 한 개일 때(한 줄)
-<div style="margin-top: -15px"></div>
 ```
   ex)110
   const fs = require('fs');
