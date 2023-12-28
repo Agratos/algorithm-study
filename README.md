@@ -3,10 +3,11 @@
 문제를 풀때 필요한 기본 Node 지식
 
 // 1. 입력값이 한 개일 때(한 줄)
+
 ```
-ex)110
-const fs = require('fs');
-const input = fs.readFileSync("/dev/stdin").toString().trim();
+  ex)110
+  const fs = require('fs');
+  const input = fs.readFileSync("/dev/stdin").toString().trim();
 ```
 
 // 2. 입력값이 여러 개일 때(한 줄에 공백으로 구분)
