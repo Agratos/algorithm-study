@@ -4,11 +4,11 @@
 
 1. 입력값이 한 개일 때(한 줄)
 <div style="margin-top: -15px"></div>
-  ```
-    ex)110
-    const fs = require('fs');
-    const input = fs.readFileSync("/dev/stdin").toString().trim();
-  ```
+```
+  ex)110
+  const fs = require('fs');
+  const input = fs.readFileSync("/dev/stdin").toString().trim();
+```
 
 2. 입력값이 여러 개일 때(한 줄에 공백으로 구분)
   ```
