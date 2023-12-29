@@ -48,3 +48,21 @@
     const fs = require('fs');
     const [n, input] = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
   ```
+
+  #### 6. 오류날때
+  ```node
+    const readline = require("readline");
+
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+
+    const input = [];
+
+    rl.on("line", function (line) {
+        input.push(line);
+    }).on("close", function () {
+        
+    });
+  ```
