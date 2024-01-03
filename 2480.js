@@ -33,16 +33,16 @@
  */
 
 const fs = require('fs');
-const [first, second, third] = (fs.readFileSync("/dev/stdin").toString().trim().split(" ")).sort((a, b) => a - b);
+const [first, second, third] = (fs.readFileSync("/dev/stdin").toString().trim().split(" ")).sort((a, b) => b - a);
 
-if(first === second === third){
+if(first === second && second === third){
     console.log(10000 + (Number(first) * 1000))
 } else if(first === second){
-    console.log(1000 + (Number(first) * 1000))
+    console.log(1000 + (Number(first) * 100))
 } else if(second === third){
-    console.log(1000 + (Number(first) * 1000))
+    console.log(1000 + (Number(second) * 100))
 } else if(third === first){
-    console.log(1000 + (Number(first) * 1000))
+    console.log(1000 + (Number(third) * 100))
 } else {
     console.log((Number(first) * 100))
 }
