@@ -30,13 +30,7 @@
  */
 
 const fs = require('fs');
-//const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
-const input = `1 1
-2 3
-3 4
-9 8
-5 2
-`.toString().trim().split("\n");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
 input.map((str) => {
     const [a, b] = str.trim().split(' ');
