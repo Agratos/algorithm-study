@@ -38,16 +38,8 @@
 /**
  * 필요 지식
  ** 구현
+ ** 반복문
  */
-
-
-
-// const [X, N, ...list] = `260000
-// 4
-// 20000 5
-// 30000 2
-// 10000 6
-// 5000 8`.toString().trim().split("\n")
 
 const fs = require('fs');
 const [X, N, ...list] = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
