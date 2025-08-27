@@ -22,7 +22,7 @@
  */
 
 const fs = require('fs');
-// const input = fs.readFileSync('/dev/stdin').toString().trim();
+// const input = fs.readFileSync('/dev/stdin').toString().toUpperCase().trim();
 const input = 'zZa'.toUpperCase();
 
 const inputArray = input.split('');
