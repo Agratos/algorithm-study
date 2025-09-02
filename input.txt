@@ -1,8 +1,13 @@
-3 4
-ohhenrie
-charlie
-baesangwook
-obama
-baesangwook
-ohhenrie
-clinton
+12 5
+appearance
+wallet
+append
+attendance
+swim
+swift
+swift
+swift
+mouse
+mouse
+ice
+age
